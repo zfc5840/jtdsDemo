@@ -1,0 +1,4 @@
+jTDS是开放源码100%纯java实现的JDBC3.0驱动，用于连接 Microsoft SQL Server（6.5，7，2000，2005，2008 和 2012）
+和Sybase（10 ，11 ，12 ，15）数据库，jTDS是基于freeTDS的，并且是目前最快的可企业级应用的SQL Server和Sybase
+的JDBC驱动程序。jTDS完全与JDBC3.0兼容，支持只向前和可滚动/可更新的结果集（ResultSets），并且支持完全独立的并行Statements，
+而且实现了所有的数据库元数据(Database MetaData)和结果集元数据(ResultSet MetaData)方法。
