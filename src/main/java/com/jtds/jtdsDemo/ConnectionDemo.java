@@ -33,6 +33,9 @@ public class ConnectionDemo {
 
 
   //第三个分支
+
+
+
 		String url = "jdbc:jtds:sqlserver://10.101.21.12:6666;DatabaseName=CDMS_NEW";
 		String user = "cdms";
 		String password = "cdms";
