@@ -27,6 +27,11 @@ public class ConnectionDemo {
 			IllegalAccessException, ClassNotFoundException {
 		// jtds
 		Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
+
+
+
+
+
 		String url = "jdbc:jtds:sqlserver://10.101.21.12:6666;DatabaseName=CDMS_NEW";
 		String user = "cdms";
 		String password = "cdms";
