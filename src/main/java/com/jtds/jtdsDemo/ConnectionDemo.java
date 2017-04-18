@@ -22,6 +22,7 @@ public class ConnectionDemo {
 	 * @throws ClassNotFoundException
 	 * @throws IllegalAccessException
 	 * @throws InstantiationException
+	 *
 	 */
 	public static void main(String[] args) throws InstantiationException,
 			IllegalAccessException, ClassNotFoundException {
@@ -41,6 +42,8 @@ public class ConnectionDemo {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+
+
 		Statement stmt = null;
 		try {
 			stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
