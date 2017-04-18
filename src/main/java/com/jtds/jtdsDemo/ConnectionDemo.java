@@ -36,6 +36,8 @@ public class ConnectionDemo {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+
+
 		Statement stmt = null;
 		try {
 			stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
